@@ -1,27 +1,32 @@
-# Java ATM Simulation System
+Java ATM Simulation System
+Project Overview
 
-## 📌 Project Overview
-This is a **console-based ATM simulation system** developed in Java to demonstrate **Object-Oriented Programming (OOP)** concepts.  
-It provides essential ATM functionalities such as **user authentication, balance inquiry, deposits, and withdrawals** with proper input validation.  
+This is a console-based ATM simulation system developed in Java to demonstrate Object-Oriented Programming (OOP) concepts.
+The project simulates basic ATM functionalities such as account creation, login with PIN authentication, balance inquiry, deposits, and withdrawals.
+User accounts are saved using file handling so that they are available even after the program is closed and restarted.
 
----
+Technologies Used
 
-## 🛠️ Tech Stack
-- **Language:** Java  
-- **Tools/IDE:** VS Code / Eclipse / IntelliJ  
-- **JDK Version:** 8 or above  
+Language: Java
 
----
+Tools/IDE: VS Code
 
-## ✨ Features
-- 🔑 **User Authentication** using PIN validation  
-- 💰 **Balance Inquiry**  
-- ➕ **Deposit** money into account  
-- ➖ **Withdraw** money with balance check  
-- 📋 **Menu-driven interface** with real-time transaction handling  
-- ⚡ **Input validation and error handling** for secure transactions  
-- 💾 **Account persistence** – once created, accounts are saved and accessible next time  
+JDK Version: 8 
 
----
+Features
 
-## 📂 Project Structure
+Create new account with unique account number and PIN
+
+User authentication using account number and PIN
+
+Balance inquiry
+
+Deposit money
+
+Withdraw money with balance check
+
+Menu-driven interface for user interaction
+
+Input validation and error handling
+
+Account persistence using file storage
